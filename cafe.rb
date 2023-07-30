@@ -15,7 +15,7 @@ FOODS = [
 ].freeze
 
 def take_order(menus)
-  menus.each.with_index() do |menu, i|
+  menus.each.with_index do |menu, i|
     puts "(#{i + 1})#{menu[:name]}: #{menu[:price]}円"
   end
   print '>'
